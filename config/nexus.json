@@ -1,0 +1,32 @@
+{
+    "activation": {
+        "key": "NX-BF46CA4F-3B1D49FA",
+        "uuid": "1b149aaa-777e-40c9-b1a2-4063043e4d59"
+    },
+    "baseUrl": "localhost:3000",
+    "notifications": {
+        "discordWebhook": null
+    },
+    "security": {
+        "rateLimit": {
+            "windowMs": 60000,
+            "maxRequests": 120
+        },
+        "burstLimit": {
+            "windowMs": 2000,
+            "maxRequests": 15
+        }
+    },
+    "console": {
+        "port": 3000,
+        "secret": "90e72f3c35152314c779005450989bd2b00b7161ee4e18fff68fc8bb165ba324"
+    },
+    "webroot": {
+        "enabled": true,
+        "entry": "index.cjs",
+        "autoRestart": true
+    },
+    "database": {
+        "path": "C:\\Users\\Andrei\\OneDrive\\Desktop\\nexus\\nexus.db"
+    }
+}
